@@ -1,22 +1,22 @@
-#include <iostream>
+#include <iostream> // for input/output
 using namespace std;
 int main()
 {
     int number;
-    cout<<"Enter the number: ";
-    cin>>number;
-    if(number<0)
+    cout << "Enter the number: ";
+    cin >> number;
+    if(number < 0) // check if negative
     {
-        cout<<"Number is negative";
+        cout << "Number is negative";
     }
-    else if(number>0)
+    else if(number > 0) // check if positive
     {
-        cout<<"Number is positive";
+        cout << "Number is positive";
     }
-    else
+    else // otherwise zero
     {
-        cout<<"Number is zero";
+        cout << "Number is zero";
     }
     return 0;
-
 }
+
