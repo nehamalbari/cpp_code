@@ -5,7 +5,7 @@ int main()
     int n,sum=0;//sum will store the cumulative sum of natural numbers upto a limit
     cout<<"Enter the limit:";
     cin>>n;
-    for(int i=1;i<=n;i++)//loop for printing first 10 natural numbers
+    for(int i=1;i<=n;i++)
     {
          sum=sum+i;//add the current natural number i to the sum
     }
