@@ -5,7 +5,7 @@ int main()
     char c;
     cout<<"Enter the character:";
     cin>>c;
-     // This 'if' statement checks if the entered character is an alphabet.
+     // This 'if' statement checks if the entered character is a number.
     if(c >= '0' && c<= '9')
     {
         cout<<c<<" is a number";//executes when condition is true
