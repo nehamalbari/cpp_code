@@ -8,7 +8,7 @@ int main()
      // This 'if' statement checks if the entered character is an alphabet.
     if((c >= 'a' && c<= 'z') || (c >= 'A' && c <= 'Z'))
     {
-        cout<<c<<" is an alphabet";//executes when condition is true
+        cout<<c<<" is an alphabet";//executes when condition is true.
     }
     else
     {
