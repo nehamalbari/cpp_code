@@ -5,7 +5,7 @@ int main()
     long limit;
     cout<<"Enter the limit: ";
     cin>>limit;
-    for(int i=limit;i>=1;i--)//loop to iterate from 1 to limit
+    for(int i=limit;i>=1;i--)//loop to iterate from limit to 1
     {
         cout<<i<<"\n";
     }
